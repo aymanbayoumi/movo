@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef, useCallback } from "react";
+import { Analytics } from "@vercel/analytics/react";
 
 /* ══════════════════════════════════════
    TRANSLATIONS
@@ -1333,6 +1334,7 @@ export default function App() {
 
       <Nav page={page} setPage={go} user={user} t={t} unread={unread} />
       {toast && <Toast msg={toast} onDone={() => setToast(null)} />}
+      <Analytics />
     </div>
   );
 }
