@@ -1,0 +1,21 @@
+{
+  "name": "Movo — Share your spare seat",
+  "short_name": "Movo",
+  "description": "Free peer-to-peer ride sharing. Launching in Egypt.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAFAF8",
+  "theme_color": "#E8294A",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["travel", "lifestyle"],
+  "lang": "en",
+  "dir": "auto"
+}
